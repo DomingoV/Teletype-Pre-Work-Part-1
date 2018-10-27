@@ -49,11 +49,15 @@ h1 {
 	padding: 15px;
 }
 
-.header (max-width: 200px){
+header (max-width: 200px){
 border: 1px solid grey;
 padding: 15px;
 background-color: orange;
 color: white;
+}
+
+section {
+	display: flex;
 }
 
 .main (max-width: 200px){
