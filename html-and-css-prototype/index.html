@@ -18,11 +18,33 @@
 
 <body>
   <div class="header">
-    <h3>$167 still needed for this project</h3>
+    <caption><scrip>toGoal</script> still needed for this project</caption>
+      <!--insert function to current donations from goal and return toGoal, I won't even pretend I know how to do that because I don't, but it's background-color is orange and it slides as it increases-->
+
   </div>
 
-  <div class="menu">
-    <p>Join the 42 other donors who have already supported this project. Every dollar helps.</p>
+  <div class="main">
+    <p><script class="daysLeft">daysLeft</script>to fund this project.</p>
+    <!--insert daysleft function that return days counter  -->
+    <p>Join the <script class="currentDonor">currentDonor</script> other donors who have already supported this project. Every dollar helps.</p>
+<!--insert function CurrentDonor that returns number of donors -->
+<div class="menu">
+  <form>
+    <input type="text" value="$50">
+    <input type="submit" value="Give now">
+    <p>Why give $50</p>
+  </form>
+
+<div class="button">
+    <button type="button"
+    onclick="saveLater()">
+    Save for later</button>
+
+
+    <button type="button"
+onclick="tellFriends()">
+Tell your friends</button>
+
 
 
 
