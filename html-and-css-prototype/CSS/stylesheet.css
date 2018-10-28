@@ -71,7 +71,7 @@ border: 1px solid grey;
 padding: 15px;
 }
 
-footer (max-width:200px){
+footer {
 	background-color: white;
 	padding:  15px;
 	text-align: center;
